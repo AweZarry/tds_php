@@ -1,0 +1,46 @@
+.frente {
+    font-family: Arial;
+    background-image: linear-gradient(to right, #FF2626, #D21F1F, #000000);
+}
+.frenti {
+    max-width: 500px;
+    margin: 0 auto;
+    background-image: linear-gradient(to right, #000000, #D21F1F, #FF2626);
+    border-radius: 10px;
+    text-align: center;
+    padding: 50px;
+}
+.frenti h1 {
+    font-family: Arial;
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.frenti h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1.4;
+}
+
+.frenti a {
+    display: inline-block;
+    padding: 10px 20px; 
+    background-color: #cc0000; 
+    color: #fff; 
+    text-decoration: none; 
+    border: 2px solid #cc0000; 
+    border-radius: 4px; 
+    transition: background-color 0.3s, color 0.3s;
+}
+.frenti a:hover{
+    background-color: #aa0000;
+    color: #fff; 
+
+}
+
+

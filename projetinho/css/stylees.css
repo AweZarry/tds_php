@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.login-container {
+    background-image: url("img/0001_1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 18px;
+    width: 700px;
+    height: 700px;
+    text-align: center;
+    align-items: center;
+}
+
+.login-container h1 {
+    position: relative;
+    top: -20px;
+    left: -10px;
+    width: 150px;
+    height: 35px;
+    font-size: 35px;
+    font-family: 'Lucida Sans';
+    color: #ffffff;
+}
+
+.form-group {
+    margin-bottom: 5px;
+    padding: 15px;
+}
+
+.form-group label {
+    display: flex;
+    margin-bottom: 2px;
+    padding: 3px;
+    font-family: 'Lucida Sans';
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+.form-group small {
+    margin-bottom: 2px;
+    padding: 3px;
+    font-family: 'Lucida Sans';
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: brown;
+    color: #000000;
+}
+
+.form-group input {
+    width: 95%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    text-align: center;
+    font-family: 'Lucida Sans';
+    margin-bottom: 5px;
+}
+
+.form-botaos input[type="submit"] {
+    background-color: #af4c4c;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 6px;
+    font-family: Arial, sans-serif;
+    position: relative;
+    top: 70px;
+    left: 243px;
+    width: 170px;
+    height: 40px;
+}
+
+.form-botaos input[type="submit"]:hover {
+    background-color: #a83131;
+}
+
+.form-msg input {
+    width: 85%;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    text-align: center;
+    font-family: 'Lucida Sans';
+    margin-bottom: 5px;
+}
+
+.form-msg label {
+    display: flex;
+    margin-bottom: 5px;
+    padding: 0 0 0 20px;
+    font-family: 'Lucida Sans';
+    color: #ffffff;
+}
+
+.form-msgs input {
+    width: 81%;
+    padding: 45px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    text-align: center;
+    font-family: 'Lucida Sans';
+    margin-bottom: 5px;
+}
+
+.form-msgs label {
+    display: flex;
+    margin-bottom: 5px;
+    padding: 0 0 0 20px;
+    font-family: 'Lucida Sans';
+    color: #ffffff;
+}

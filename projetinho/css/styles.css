@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.logar {
+    background-image: url("img/0001_1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 18px;
+    width: 375px;
+    height: 375px;
+    text-align: center;
+    align-items: center;
+}
+
+.logar h1 {
+    position: relative;
+    top: -20px;
+    left: -10px;
+    width: 150px;
+    height: 35px;
+    font-size: 35px;
+    font-family: 'Lucida Sans';
+    color: #000000;
+}
+
+.logar {
+    margin-bottom: 5px;
+    padding: 15px;
+}
+
+.logar label {
+    display: flex;
+    margin-bottom: 2px;
+    padding: 3px;
+    font-family: 'Lucida Sans';
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+.logar input {
+    width: 95%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    text-align: center;
+    font-family: 'Lucida Sans';
+    margin-bottom: 5px;
+}
+
+.logar input[type="submit"] {
+    background-color: #af4c4c;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 6px;
+    font-family: Arial, sans-serif;
+    position: relative;
+    top: 100px;
+    left: 180px;
+    width: 150px;
+    height: 35px;
+}
+
+.logar input[type="submit"]:hover {
+    background-color: #a83131;
+}
+
+.logar button{
+    position: relative;
+    top: 85px;
+    left: -200px;
+    width: 150px;
+    height: 35px;
+    font-size: 11px;
+    border: none;
+    background-color: transparent;
+    color: #f2f2f2;
+}
+.logar button:hover {
+    background-color: transparent;
+    color: #ff0000; 
+}
+
+.logar button:focus {
+    outline: none;
+}
+
+.logar button{
+    position: relative;
+    top: 70px;
+    left: -125px;
+    width: 150px;
+    height: 35px;
+    font-size: 11px;
+    border: none;
+    background-color: transparent;
+    color: #f2f2f2;
+}
+.logar button:hover {
+    background-color: transparent;
+    color: #ff0000; 
+}
+
+.logar button:focus {
+    outline: none;
+}
